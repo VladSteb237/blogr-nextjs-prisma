@@ -2,9 +2,6 @@
   "name": "blogr-nextjs-prisma",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,9 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "15",
-    "react": "19",
-    "react-dom": "19",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "react-markdown": "^10.1.0"
   },
   "devDependencies": {
@@ -22,7 +19,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15",
+    "eslint-config-next": "16.2.6",
     "typescript": "^5"
   }
 }
